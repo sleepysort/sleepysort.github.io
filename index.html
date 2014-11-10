@@ -37,7 +37,7 @@
 			</div>
 			<div class="row divider"></div>
 			<div class="col-md-4 col-sm-10 col-sm-offset-1 col-md-offset-0">
-				<img src="img/snowboarding-mix.png" id="main-photo">
+				<img src="img/snowboarding-mix.png" class="photo">
 			</div>
 			<div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-0">
 				<p>My name is Shawn Lee. I'm a student, majoring in Computer Science at the University of Washington. I've always loved creating things, whether it is with hammer and nails, lights and wires, knife and fire, or pen and paper.</p> 
@@ -49,18 +49,63 @@
 				Projects
 			</div>
 			<div class="row divider"></div>
-			<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-				<ul>
-					<li>
-						<a href="http://sleepysort.github.io/conway"><em>Conway's Game of Life</em></a> (HTML5 Canvas/JavaScript)
-					</li>
-					<li>
-						<a href="http://sleepysort.github.io/BoomPhysics"><em>Boom Physics</em></a> [Early Development] (HTML5 Canvas/Javascript)
-					</li>
-					<li>
-						<a href="#"><em>Microbox Finance</em></a> [Early Development] (Android/Java)
-					</li>
-				</ul>
+			<div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+				<div class="row project-info">
+					<h2><a href="http://github.com/sleepysort/nanobox">Nanobox</a></h2>
+					<div class="row divider"></div>
+					<div class="col-md-4">
+						<img src="img/nanobox_1.png" width="100%"/>
+					</div>
+					<div class="col-md-8">
+						<p>Python, Dropbox API</p>
+						<p>A custom CLI Dropbox client that compresses the users files prior to syncing with their Dropbox. The compressed files are stored in the Dropbox, while the decompressed files are available locally, resulting in less of the user's available space to store the same file. The compression process is transparent to the user.</p>
+						<p>NOTE: This was primarily an experiment with the Dropbox API, and is not intended for widespread usage. Things like Dropbox's binary diff to check revision history for files may not work correctly.</p>
+					</div>
+				</div>
+				<div class="row project-info">
+					<h2><a href="http://sleepysort.github.io/colors">Colors</a></h2>
+					<div class="row divider"></div>
+					<div class="col-md-4">
+						<img src="img/colors_1.png" width="100%"/>
+					</div>
+					<div class="col-md-8">
+						<p>Construct 2 Game Engine</p>
+						<p>A game with a simple objective; try to clear the screen of all the colored bubbles! Each time you pop a bubble, it will break into two smaller, faster bubbles. There is an Android version <a href="https://play.google.com/store/apps/details?id=com.sleepybox.colors">here</a> on the Google Play store. Different game modes (including multiplayer) to be added in the future.</p>
+					</div>
+				</div>
+				<div class="row project-info">
+					<h2><a href="http://sleepysort.github.io/conway">Conway's Game of Life</a></h2>
+					<div class="row divider"></div>
+					<div class="col-md-4">
+						<img src="img/conway_2.png" width="100%"/>
+					</div>
+					<div class="col-md-8">
+						<p>HTML, JavaScript</p>
+						<p>An HTML Canvas implementation of John Conway's Game of Life. Conway's "game" is a cellular automata that has been the subject of interest to many mathematicians and computer scientists alike (pictured is a Gosper glider gun).</p>
+					</div>
+				</div>
+				<div class="row project-info">
+					<h2><a href="http://sleepysort.github.io/BoomPhysics">BoomPhysics Physics Engine [Early Development]</a></h2>
+					<div class="row divider"></div>
+					<!--<div class="col-md-4">
+						<img src="img/boomphysics_1.png" width="100%"/>
+					</div>-->
+					<div class="col-md-8">
+						<p>HTML, JavaScript</p>
+						<p>A simple physics engine for Canvas/Javascript applications. Currently has limited features (particles, coefficient of restitution, force vectors).</p>
+					</div>
+				</div>
+				<div class="row project-info">
+					<h2><a href="http://sleepysort.github.io/#">Microbox Finance [Early Development]</a></h2>
+					<div class="row divider"></div>
+					<!--<div class="col-md-4">
+						<img src="img/microbox_1.png" width="100%"/>
+					</div>-->
+					<div class="col-md-8">
+						<p>Java, Android SDK</p>
+						<p>A personal budgeting application for Android. Create budgets, track spending, and set up notifications for your finances.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row section-container" id="resume">
