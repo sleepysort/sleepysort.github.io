@@ -1,17 +1,15 @@
 ---
-published: true
+published: false
 title: A Prologue
 layout: post
-tags: [computer-science, cs-education, cs]
 ---
 First, let’s answer the following question: What the heck is this blog for?
 
 The short and sweet answer is that this blog attempts to teach computer science concepts in a way that is understandable to everyone. The long answer, however, is that this blog attempts to do something a tad more ambitious.
 
-The field of computer science has been seeing unprecedented popularity in recent years. A report from the University of Washington in 2014 shows an exponential increase in the number of undergraduate university students that demonstrate interest in computer science [insert UW majors graph here]. Similar trends have been observed in STEM programs across the United States. Such trends correlate with the increase in computer science related jobs—in 2013, the Bureau of Labor Statistics estimated that “62% of the growth in jobs in science-related fields will be in computer science”. Furthermore, non-profit organizations such as Code.org have appeared address this overwhelming demand for computer science education. In terms of available resources and opportunities, there has never been a better 
-time to study computer science.
+The field of computer science has been seeing unprecedented popularity in recent years. A report from the University of Washington in 2014 shows an exponential increase in the number of undergraduate university students that demonstrate interest in computer science [insert UW majors graph here]. Similar trends have been observed in STEM programs across the United States. Such trends correlate with the increase in computer science related jobs—in 2013, the Bureau of Labor Statistics estimated that “62% of the growth in jobs in science-related fields will be in computer science” . Furthermore, non-profit organizations such as Code.org have appeared address this overwhelming demand for computer science education. In terms of available resources and opportunities, there has never been a better time to study computer science.
 
-And yet, there is still a major issue that (as far as I am aware) has not been effectively addressed: the way that computer science is generally perceived. What I mean by this is that the majority of people have an incomplete (if not incorrect) idea of what computer science is.
+And yet, there is still a major issue that (as far as I am aware) has not been effectively addressed: the way that computer science is generally perceived. What I mean by this is that the majority of people have an incomplete (if not incorrect) idea of what computer science is. 
 
 So…why is this a problem?
 
